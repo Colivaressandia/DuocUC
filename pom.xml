@@ -44,6 +44,7 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <!-- Asegúrate de que este sea el paquete y clase principal correcta -->
                             <mainClass>com.mycompany.exp3_s8_cristian_olivares.Exp3_S8_Cristian_Olivares</mainClass>
                         </manifest>
                     </archive>
