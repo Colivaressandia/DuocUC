@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Main-Class: com.mycompany.exp3_s8_cristian_olivares.Exp3_S8_Cristian_Olivares
