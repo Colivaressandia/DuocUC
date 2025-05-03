@@ -12,17 +12,16 @@
     <description>Proyecto de ejemplo para solucionar problemas</description>
     <url>http://maven.apache.org</url>
 
+    <!-- Propiedades generales del proyecto -->
     <properties>
-        <!-- Configuración de codificación -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!-- Configuración del JDK -->
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
-        <!-- Aquí puedes agregar tus dependencias -->
+        <!-- Aquí puedes agregar tus dependencias adicionales -->
     </dependencies>
 
     <build>
@@ -45,6 +44,7 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <!-- Reemplaza esta ruta por la clase que contiene tu método main -->
                             <mainClass>com.mycompany.Exp3_S8_Cristian_Olivares.Main</mainClass>
                         </manifest>
                     </archive>
