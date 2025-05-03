@@ -45,7 +45,7 @@
                     <archive>
                         <manifest>
                             <!-- Reemplaza esta ruta por la clase que contiene tu método main -->
-                            <mainClass>com.mycompany.Exp3_S8_Cristian_Olivares.Main</mainClass>
+                            <mainClass>com.mycompany.exp3_s8_cristian_olivares.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
