@@ -40,11 +40,11 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
+                <version>3.4.1</version>
                 <configuration>
                     <archive>
                         <manifest>
-                            <!-- Reemplaza esta ruta por la clase que contiene tu método main -->
+                            <!-- Cambia esta ruta si tu clase principal tiene un nombre o paquete diferente -->
                             <mainClass>com.mycompany.exp3_s8_cristian_olivares.Main</mainClass>
                         </manifest>
                     </archive>
