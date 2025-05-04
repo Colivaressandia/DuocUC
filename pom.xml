@@ -37,19 +37,19 @@
             </plugin>
 
             <!-- Plugin para empaquetar el JAR con la clase principal -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.4.1</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <!-- Asegúrate de que este sea el paquete y clase principal correcta -->
-                            <mainClass>com.mycompany.exp3_s8_cristian_olivares.Exp3_S8_Cristian_Olivares</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.3.0</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>com.mycompany.exp3_s8_cristian_olivares.Exp3_S8_Cristian_Olivares</mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
